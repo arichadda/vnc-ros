@@ -9,6 +9,7 @@ RUN apt-get -y update && apt-get install -y \
     nano \
     vim \
     htop \
+    ssh \
     ros-melodic-joy \
     ros-melodic-teleop-twist-joy \
     ros-melodic-teleop-twist-keyboard \ 
@@ -31,6 +32,8 @@ RUN apt-get -y update && apt-get install -y \
     ros-melodic-navigation \
     ros-melodic-interactive-markers \
     ros-melodic-turtlebot3-gazebo
+RUN apt-get -y update && apt install -y curl gnupg2
+RUN curl https://install.husarnet.com/install.sh | bash
 RUN mkdir -p /root/catkin_ws/src
 WORKDIR /root/catkin_ws
 RUN /bin/bash -c "source /opt/ros/melodic/setup.bash"
