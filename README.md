@@ -1,4 +1,4 @@
-# ROS on Mac/Windows
+# Dockerized ROS Noetic
 
 Before following the next two steps, install Docker ([installation instructions for Mac](https://docs.docker.com/docker-for-mac/install/) or [for Windows](https://docs.docker.com/docker-for-windows/install/#system-requirements-for-wsl-2-backend)).
 
@@ -18,7 +18,7 @@ Once the other terminal shows the following type of messages
 
 open another terminal:
 1. Run `docker-compose exec ros bash` (`docker-compose up` has to be running)
-2. Run `source /opt/ros/melodic/setup.bash`
+2. Run `source /opt/ros/noetic/setup.bash`
 3. Run `roslaunch turtlebot3_gazebo turtlebot3_world.launch` and you should see a number of messages, including `[ INFO] [1617035063.438483400, 0.126000000]: DiffDrive(ns = //): Advertise odom on odom `
 
 To see whether it was successful, 
