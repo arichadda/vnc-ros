@@ -1,4 +1,4 @@
-# ROS on Mac/Windows
+# Dockerized ROS Noetic
 
 Before following the next two steps, install Docker ([installation instructions for Mac](https://docs.docker.com/docker-for-mac/install/) or [for Windows](https://docs.docker.com/docker-for-windows/install/#system-requirements-for-wsl-2-backend)).
 
