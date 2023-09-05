@@ -4,7 +4,7 @@ Before following the next two steps, install Docker ([installation instructions 
 
 ## 1. Setup
 Open a new terminal in the Mac or PowerShell in Windows.
-1. Once the terminal is open, clone this repository with the command `git clone https://github.com/quattrinili/vnc-ros`
+1. Once the terminal is open, clone this repository with the command `git clone https://github.com/arichadda/vnc-ros`
 2. Enter in the cloned repository folder, `cd vnc-ros`
 3. Run `docker-compose up --build`
 
@@ -24,7 +24,7 @@ Once the other terminal shows the following type of messages and remains running
 
 open another terminal:
 1. Run `docker-compose exec ros bash` (`docker-compose up` has to be running)
-2. Run `source /opt/ros/melodic/setup.bash`
+2. Run `source /opt/ros/noetic/setup.bash`
 3. Run `roslaunch turtlebot3_gazebo turtlebot3_world.launch` and you should see a number of messages, including `[ INFO] [1617035063.438483400, 0.126000000]: DiffDrive(ns = //): Advertise odom on odom `
 
 To see whether it was successful, 
