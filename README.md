@@ -4,7 +4,7 @@ Before following the next two steps, install Docker ([installation instructions 
 
 ## 1. Setup
 Open a new terminal in the Mac or PowerShell in Windows.
-1. Once the terminal is open, clone this repository with the command `git clone https://github.com/arichadda/vnc-ros`
+1. Once the terminal is open, clone this repository with the command `git clone https://github.com/arichadda/vnc-ros-noetic`
 2. Enter in the cloned repository folder, `cd vnc-ros`
 3. Run `docker-compose up --build`
 
